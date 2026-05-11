@@ -30,10 +30,14 @@
 | Performance audit | ✅ Done | 444ms total load time (before ScrollTrigger fix: 2168ms) |
 | Build verification | ✅ Done | pnpm build passes, static export 3.4 MB, 0 errors |
 
+## Completed (This Session)
+| Task | Status | Notes |
+|------|--------|-------|
+| Vercel Analytics | ✅ Done | @vercel/analytics added to root layout |
+| Vercel deployment | ✅ Done | Live at https://fashionist-six.vercel.app |
+
 ## Future Considerations
 | Task | Priority | Notes |
 |------|----------|-------|
 | Image optimization | Low | Compress hero_section.webp (277 KB) and look-01.webp (156 KB) further |
-| Git init & first commit | Low | Initialize repo and commit initial build |
-| Deployment | Low | Deploy static export to Vercel/Netlify/Cloudflare Pages |
 | Lighthouse CI | Low | Add Lighthouse CI to test pipeline for regression detection |

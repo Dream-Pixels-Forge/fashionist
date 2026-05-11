@@ -32,3 +32,14 @@
 - Git init & first commit
 - Deployment to Vercel/Netlify/Cloudflare Pages
 - Lighthouse CI for regression detection
+
+## Session 3: Analytics & Deployment — 2026-05-11
+
+### Completed
+- [x] Installed @vercel/analytics, added <Analytics /> to root layout
+- [x] Deployed to Vercel via dashboard (GitHub import)
+- [x] Verified live at https://fashionist-six.vercel.app — all sections, images, analytics confirmed
+
+### Next Steps / Future Considerations
+- Image optimization for hero_section.webp (277 KB) and look-01.webp (156 KB)
+- Lighthouse CI for regression detection
