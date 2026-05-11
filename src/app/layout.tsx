@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import "@/lib/fonts";
 import GrainOverlay from "@/components/ui/GrainOverlay";
 import "@/app/globals.css";
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className="bg-kraft-cream text-text font-body antialiased">
         <GrainOverlay />
         {children}
+        <Analytics />
       </body>
     </html>
   );
